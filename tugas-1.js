@@ -29,6 +29,7 @@ results.forEach((values) => {
   hasil.push(temp)
 })
 
+// Temukan nilai minimal dan maksimal
 var hasilMin = Math.min.apply(Math, hasil)
 var hasilMax = Math.max.apply(Math, hasil)
 console.log('Min : ', hasilMin, ',', 'Max : ',hasilMax)
